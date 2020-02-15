@@ -1,0 +1,100 @@
+/* General */
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    background-color: rgb(52, 140, 235);
+    color: white;
+    padding: 35px;
+}
+
+
+/* Property for all buttons */
+
+button {
+    border-radius: 10rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+/* Controller Facts */
+
+.factController {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+#loadFacts {
+    background-color: #e6e600;
+    padding: 10px 20px;
+}
+
+
+/* Display Facts Containers */
+
+.container-fluid {
+    background-color: rgba(165, 203, 245, 0.3);
+}
+
+.row {
+    padding: 20px;
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+}
+
+.showFacts,
+.factDetails {
+    height: 400px;
+    overflow: scroll;
+    padding: 20px;
+    color: rgb(24, 116, 205);
+}
+
+
+/* Buttons pagination */
+
+.btnPaginationContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnPagination {
+    background-image: linear-gradient(to left, rgb(18, 203, 196, 0.6), rgb(6, 82, 221, 0.6));
+    color: #fff;
+    padding: 5px 10px;
+}
+
+
+/* Display link list */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(24, 116, 205);
+}
+
+a:hover {
+    color: rgb(24, 116, 205, 0.7);
+    text-decoration: none;
+}
