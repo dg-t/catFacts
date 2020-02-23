@@ -29,6 +29,3 @@ const clearResults = () => {
 const clearFact = () => {
     factDetails.innerHTML = '';
 };
-
-// On page reload go to main url
-window.location.href = "https://dg-t.github.io/catFacts/"
