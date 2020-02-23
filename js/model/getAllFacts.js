@@ -5,7 +5,7 @@ const getCatFacts = async() => {
         const result = await response.json();
         allCatFacts = result.all;
 
-        displayCatFacts(allCatFacts)
+        displayAllFacts(allCatFacts)
 
     } catch (err) {
         alert('Something went wrong :(');

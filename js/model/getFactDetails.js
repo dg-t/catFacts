@@ -5,11 +5,11 @@ class Fact {
     }
     getFact = async() => {
         try {
-            const response = await fetch(`${baseUrlProxy}/facts/`);
+            const response = await fetch(`${baseUrlProxy}/facts/#`);
             const result = await response.json();
             let factResults = result.all;
 
-            for (let i = 0; i < factResults.length; i++) {
+            for (let i = 0, len = factResults.length; i < len; i++) {
                 const currentFact = factResults[i];
 
                 if (currentFact._id == this.id) {
